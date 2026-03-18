@@ -1,0 +1,44 @@
+name: Frontend CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'frontend/**' # Only trigger if changes are made inside the frontend folder
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v3
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies and verify build
+        working-directory: ./frontend
+        run: |
+          npm install
+          npm run build
+
+  delivery:
+    runs-on: ubuntu-latest
+    needs: test-and-build
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v3
+        
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          
+      - name: Build and Push Docker image
+        working-directory: ./frontend
+        run: |
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/skil2-frontend:latest .
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/skil2-frontend:latest
