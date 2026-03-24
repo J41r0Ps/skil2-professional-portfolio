@@ -1,13 +1,19 @@
-import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
 
 function App() {
   return (
-    <div className="container mt-5 text-center">
-      <h1 className="text-primary ">🚀 SKIL2 Portfolio Base</h1>
-      <p className="lead">React + Bootstrap</p>
-      <hr className="my-4" />
-      <p className='text-'>This is a test of my portfolio</p>
-    </div>
+    <>
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </main>
+    </>
   );
 }
 
