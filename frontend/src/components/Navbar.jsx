@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-dark shadow-sm" style={{ backgroundColor: 'var(--tm-text-900)' }}>
             <div className="container">
                 <NavLink className="navbar-brand d-flex align-items-center" to="/">
-                    <img src={logo} alt="JN Portfolio Logo" height="40" className="me-2" />
+                    <img src={logo} alt="JN Portfolio Logo" height="35" className="me-2" />
                     <span className="fw-bold text-white">Jairo Nacurena</span>
                 </NavLink>
 
