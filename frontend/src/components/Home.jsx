@@ -1,12 +1,10 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import profilePic from '@/assets/profile.jpg';
 
 function HeroSection() {
     return (
-        <section className="container py-5 min-vh-75 d-flex align-items-center">
-            <div className="row align-items-center w-100 g-5">
-
+        <section className="container py-5 d-flex align-items-center">
+            <div className="row align-items-center g-5">
                 <div className="col-12 col-md-7 order-2 order-md-1 text-center text-md-start">
                     <h1 className="display-4 fw-bold mb-3" style={{ color: 'var(--tm-text-900)' }}>
                         Hi, I'm <span style={{ color: 'var(--tm-primary-400)' }}>Jairo Nacurena</span>
@@ -56,7 +54,7 @@ function HeroSection() {
 function Home() {
     return (
         // Wrapper for the entire home page
-        <div className="home-page" style={{ backgroundColor: 'var(--tm-bg-light)', minHeight: '100vh' }}>
+        <div className="home-page" style={{ backgroundColor: 'var(--tm-bg-light)' }}>
             <HeroSection />
         </div>
     );
