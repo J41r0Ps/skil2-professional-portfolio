@@ -1,35 +1,31 @@
-# 🚀 SKIL2 Professional Portfolio
+# 🚀 Jairo Nacurena - Professional Portfolio
 
-Welcome to my personal portfolio repository, developed as part of the **Skills Integration Lab 2 (SKIL2)** at Thomas More University. This project serves as my professional business card, showcasing my technical evolution, proudly presenting my projects in Software Development, Data Science, and DevOps.
+Welcome to my personal portfolio repository! Developed as part of the **Skills Integration Lab 2 (SKIL2)** at Thomas More University, this project serves as my digital business card. It showcases my technical evolution and proudly presents my real-world projects across Software Development, Data Science, Artificial Intelligence, and DevOps.
 
-## 🎯 Project Scope & Phases
+🌍 **Live Website:** [View Portfolio on Azure](https://jairo-portfolio-frontend-eqcaa5gwdyavc4fq.westeurope-01.azurewebsites.net/)
+💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/jairo-nacurena/)
 
-This project is being developed using an agile, phased approach:
+## ✨ Key Features
 
-### Phase 1: Frontend & DevOps (Current Focus)
-* **Frontend:** React.js integrated with Bootstrap for responsive, clean UI design.
-* **Scope:** 'Home' and 'About Me' pages.
-* **DevOps:** CI/CD pipelines via GitHub Actions, containerization with Docker, and automated deployment to Azure.
-
-### Phase 2: Backend & Database (Upcoming)
-* **Backend:** ASP.NET Core Web API (C#) to serve project data dynamically.
-* **Database:** Containerized database solution.
-* **Scope:** 'Projects' section featuring my SKIL2 and personal realisations (Evently, Kaggle ML Challenges).
-
-## 📂 Repository Structure
-
-This repository follows a monorepo structure to keep the full-stack ecosystem unified:
-
-* `/.github/workflows` - CI/CD pipeline configurations.
-* `/frontend` - React Single Page Application (SPA).
-* `/backend` - *Placeholder for the upcoming ASP.NET Core API.*
+* **Full-Stack Architecture:** A robust backend built with ASP.NET Core (.NET 8) serving dynamic data to a responsive React.js frontend.
+* **Multilingual Support:** Fully accessible in both **English** and **Dutch** to connect with a broader, international professional network.
+* **Project Showcase:** A dedicated space featuring my academic and personal realizations, including full-stack applications like *Evently* and data-driven *Kaggle ML Challenges*.
+* **Automated DevOps:** Fully containerized with Docker and continuously deployed to Microsoft Azure via GitHub Actions CI/CD pipelines.
 
 ## 🛠️ Tech Stack Overview
 
-* **UI/UX:** React.js, Bootstrap 5
-* **Backend (Planned):** ASP.NET Core (.NET 8)
-* **Infrastructure:** Docker, Docker Compose
-* **CI/CD:** GitHub Actions, Azure
+* **Frontend (UI/UX):** React.js, Bootstrap 5, Tailwind CSS
+* **Backend & API:** ASP.NET Core Web API (C#)
+* **Database:** Containerized SQL Database
+* **Infrastructure & DevOps:** Docker, Docker Compose, GitHub Actions, Microsoft Azure
+
+## 📂 Repository Structure
+
+This repository follows a monorepo structure to keep the full-stack ecosystem unified and easily maintainable:
+
+* `/.github/workflows` - CI/CD pipeline configurations for automated deployment to Azure.
+* `/frontend` - React Single Page Application (SPA) containing all the UI components and client-side routing.
+* `/backend` - ASP.NET Core Web API handling data persistence and business logic.
 
 ---
-*Developed by Jairo Nacurena Tuy - IT Factory, Thomas More University.*
+*Developed by Jairo Nacurena - APP/AI Specialization, IT Factory, Thomas More University.*
