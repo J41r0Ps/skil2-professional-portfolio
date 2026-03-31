@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gaming Laptop MSI GL73 8RC
+* source:	https://sketchfab.com/3d-models/gaming-laptop-msi-gl73-8rc-0b549f79e86647eb8d23c22cfb341648
+* author:	fluffyw0lf (https://sketchfab.com/fluffyw0lf)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gaming Laptop MSI GL73 8RC" (https://sketchfab.com/3d-models/gaming-laptop-msi-gl73-8rc-0b549f79e86647eb8d23c22cfb341648) by fluffyw0lf (https://sketchfab.com/fluffyw0lf) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

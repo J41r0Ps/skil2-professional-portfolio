@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="120" height="120" rx="20" fill="#cad2c5"/>
+  
+  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle"
+        fill="#52796f" font-family="Montserrat, sans-serif"
+        font-size="64" font-weight="900" letter-spacing="-4">
+    JN
+  </text>
+  <line x1="20" y1="100" x2="100" y2="100" stroke="#84a98c" stroke-width="4" />
+</svg>
