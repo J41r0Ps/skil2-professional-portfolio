@@ -8,6 +8,7 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 import { profile } from "../assets";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
     const { t } = useTranslation();
@@ -93,4 +94,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default SectionWrapper(About, "about");

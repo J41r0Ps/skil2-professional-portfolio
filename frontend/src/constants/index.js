@@ -1,8 +1,8 @@
 import {
-  mobile,
+  agile,
   backend,
-  creator,
-  web,
+  ai,
+  fullstack,
   javascript,
   typescript,
   html,
@@ -47,15 +47,15 @@ const services = [
   },
   {
     title: "about.services.fullstack",
-    icon: web, 
+    icon: fullstack, 
   },
   {
     title: "about.services.agile",
-    icon: mobile, 
+    icon: agile, 
   },
   {
     title: "about.services.ai",
-    icon: creator, 
+    icon: ai, 
   },
 ];
 
