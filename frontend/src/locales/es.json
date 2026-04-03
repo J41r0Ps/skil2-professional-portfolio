@@ -4,5 +4,10 @@
         "about": "Sobre mí",
         "work": "Proyectos",
         "contact": "Contacto"
+    },
+    "hero": {
+        "greeting": "Hola, soy",
+        "subtitle1": "Desarrollo APIs backend robustas, modelos de IA,",
+        "subtitle2": "y aplicaciones web modernas."
     }
 }

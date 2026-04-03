@@ -28,6 +28,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "linear-gradient(to bottom right, #2f3e46, #111111)", 
         "hero-pattern-light": "linear-gradient(to bottom right, #f8fafc, #cad2c5)", 
+        "jairo-gradient": "linear-gradient(180deg, #52796f 0%, rgba(82, 121, 111, 0) 100%)",
       },
     },
   },

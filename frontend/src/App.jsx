@@ -5,12 +5,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary-light dark:bg-primary transition-colors duration-300'>
-
         <div className='bg-hero-pattern-light dark:bg-hero-pattern bg-cover bg-no-repeat bg-center transition-all duration-300'>
           <Navbar />
           <Hero />
         </div>
-
         <About />
         <Experience />
         <Tech />
@@ -18,7 +16,7 @@ const App = () => {
         <Feedbacks />
       </div>
 
-      <div>
+      <div className='relative z-0'>
         <Contact />
         <StarsCanvas />
       </div>
