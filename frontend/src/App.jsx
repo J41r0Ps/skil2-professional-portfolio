@@ -1,8 +1,28 @@
+import { BrowserRouter } from 'react-router-dom'
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components'
+
 const App = () => {
   return (
-    <div>
-      <h1>Welcome to the App!</h1>
-    </div>
+    <BrowserRouter>
+      <div className='relative z-0 bg-primary-light dark:bg-primary transition-colors duration-300'>
+
+        <div className='bg-hero-pattern-light dark:bg-hero-pattern bg-cover bg-no-repeat bg-center transition-all duration-300'>
+          <Navbar />
+          <Hero />
+        </div>
+
+        <About />
+        <Experience />
+        <Tech />
+        <Works />
+        <Feedbacks />
+      </div>
+
+      <div>
+        <Contact />
+        <StarsCanvas />
+      </div>
+    </BrowserRouter>
   )
 }
 
