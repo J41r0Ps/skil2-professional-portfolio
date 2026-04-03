@@ -1,13 +1,25 @@
 {
     "navbar": {
-        "role": "| APP/AI Ingenieur",
+        "role": "| APP/AI Engineer",
         "about": "Over mij",
         "work": "Projecten",
         "contact": "Contact"
     },
     "hero": {
-        "greeting": "Hallo, ik ben",
-        "subtitle1": "Ik ontwikkel robuuste backend API's, AI-modellen",
+        "greeting": "Hoi, ik ben",
+        "subtitle1": "Ik ontwikkel robuuste backend-API's, AI-modellen,",
         "subtitle2": "en moderne webapplicaties."
+    },
+    "about": {
+        "sectionSubText": "Introductie",
+        "sectionHeadText": "Overzicht.",
+        "description": "Ik ben een gepassioneerde student Toegepaste Informatica aan Thomas More, gespecialiseerd in Application Development en Artificial Intelligence (APP/AI). Met een sterke basis in backend development (C#, .NET, Python) en moderne webframeworks (React), werk ik graag in Agile-omgevingen. Ik leer snel, ga graag complexe uitdagingen aan en bouw schaalbare, intelligente en gebruiksvriendelijke oplossingen.",
+        "downloadCV": "Download CV",
+        "services": {
+            "backend": "Backend Developer",
+            "fullstack": "Full Stack Developer",
+            "agile": "Agile Teamspeler",
+            "ai": "AI & Data Enthousiast"
+        }
     }
 }

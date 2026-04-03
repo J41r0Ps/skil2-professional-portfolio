@@ -9,5 +9,17 @@
         "greeting": "Hola, soy",
         "subtitle1": "Desarrollo APIs backend robustas, modelos de IA,",
         "subtitle2": "y aplicaciones web modernas."
+    },
+    "about": {
+        "sectionSubText": "Introducción",
+        "sectionHeadText": "Resumen.",
+        "description": "Soy un estudiante apasionado de Informática Aplicada en Thomas More, especializado en Desarrollo de Aplicaciones e Inteligencia Artificial (APP/IA). Con una sólida base en desarrollo backend (C#, .NET, Python) y frameworks web modernos (React), me desenvuelvo bien en entornos Agile. Aprendo rápido, me gusta enfrentar problemas complejos y construir soluciones escalables, inteligentes y centradas en el usuario.",
+        "downloadCV": "Descargar CV",
+        "services": {
+            "backend": "Desarrollador Backend",
+            "fullstack": "Desarrollador Full Stack",
+            "agile": "Colaborador Agile",
+            "ai": "Entusiasta de IA y Datos"
+        }
     }
 }

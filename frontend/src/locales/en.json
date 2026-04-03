@@ -9,5 +9,17 @@
         "greeting": "Hi, I'm",
         "subtitle1": "I develop robust backend APIs, AI models,",
         "subtitle2": "and modern web applications."
+    },
+    "about": {
+        "sectionSubText": "Introduction",
+        "sectionHeadText": "Overview.",
+        "description": "I am a passionate Applied Computer Science student at Thomas More University, specializing in Application Development and Artificial Intelligence (APP/AI). With a strong foundation in backend engineering (C#, .NET, Python) and modern web frameworks (React), I thrive in Agile environments. I am a quick learner, always eager to tackle complex problems and build scalable, intelligent, and user-centric solutions.",
+        "downloadCV": "Download CV",
+        "services": {
+            "backend": "Backend Developer",
+            "fullstack": "Full Stack Developer",
+            "agile": "Agile Collaborator",
+            "ai": "AI & Data Enthusiast"
+        }
     }
 }
