@@ -10,9 +10,7 @@ function Laptop({ isMobile }) {
   return (
     <mesh>
       <hemisphereLight intensity={0.5} groundColor="black" />
-
       <directionalLight position={[10, 10, 5]} intensity={1.5} castShadow />
-
       <pointLight position={[-10, -10, -10]} intensity={0.5} />
 
       <primitive
