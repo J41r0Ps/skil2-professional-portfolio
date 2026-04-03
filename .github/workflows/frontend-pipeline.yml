@@ -21,11 +21,17 @@ jobs:
         with:
           node-version: '20' 
           
-      - name: Install dependencies and verify build
+      - name: Install dependencies
         working-directory: ./frontend
-        run: |
-          npm install
-          npm run build
+        run: npm install
+
+      - name: Run Linter
+        working-directory: ./frontend
+        run: npm run lint
+
+      - name: Verify build
+        working-directory: ./frontend
+        run: npm run build
 
   delivery:
     runs-on: ubuntu-latest
