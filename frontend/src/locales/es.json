@@ -2,7 +2,7 @@
     "navbar": {
         "role": "| Ingeniero APP/IA",
         "about": "Sobre mí",
-        "work": "Proyectos",
+        "work": "Experiencia",
         "contact": "Contacto"
     },
     "hero": {
@@ -20,6 +20,21 @@
             "fullstack": "Desarrollador Full Stack",
             "agile": "Colaborador Agile",
             "ai": "Entusiasta de IA y Datos"
+        }
+    },
+    "experience": {
+        "sectionSubText": "Lo que he hecho hasta ahora",
+        "sectionHeadText": "Experiencia laboral.",
+        "woonboog": {
+            "title": "Desarrollador VBA y Soporte IT",
+            "company": "Woonboog",
+            "date": "Junio 2024 - Julio 2024",
+            "points": [
+                "Desarrollé una aplicación automatizada en VBA dentro de Excel para calcular la rentabilidad de propiedades (alquilar vs. vender) basada en parámetros dinámicos como el número de baños.",
+                "Transformé hojas de cálculo manuales complejas en dashboards intuitivos y fáciles de usar con gráficos automatizados e indicadores visuales claros (rojo/verde) para apoyar la toma de decisiones.",
+                "Fui contratado como estudiante trabajador tras una pasantía exitosa de un mes para finalizar e implementar la aplicación financiera.",
+                "Proporcioné soporte activo de Helpdesk IT resolviendo problemas técnicos diarios de empleados y ayudando con la infraestructura de oficina."
+            ]
         }
     }
 }

@@ -2,7 +2,7 @@
     "navbar": {
         "role": "| APP/AI Engineer",
         "about": "About",
-        "work": "Work",
+        "work": "Experience",
         "contact": "Contact"
     },
     "hero": {
@@ -20,6 +20,21 @@
             "fullstack": "Full Stack Developer",
             "agile": "Agile Collaborator",
             "ai": "AI & Data Enthusiast"
+        }
+    },
+    "experience": {
+        "sectionSubText": "What I have done so far",
+        "sectionHeadText": "Work Experience.",
+        "woonboog": {
+            "title": "VBA Developer & IT Support",
+            "company": "Woonboog",
+            "date": "June 2024 - July 2024",
+            "points": [
+                "Developed an automated VBA application within Excel to calculate property profitability (rent vs. sell) based on dynamic parameters like the number of bathrooms.",
+                "Transformed complex manual spreadsheets into intuitive, user-friendly dashboards with automated graphs and clear visual indicators (red/green) to assist decision-making.",
+                "Hired as a student worker following a successful one-month internship to finalize and deploy the financial application.",
+                "Provided active IT Helpdesk support, resolving daily technical issues for employees and assisting with office infrastructure."
+            ]
         }
     }
 }

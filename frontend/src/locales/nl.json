@@ -2,7 +2,7 @@
     "navbar": {
         "role": "| APP/AI Engineer",
         "about": "Over mij",
-        "work": "Projecten",
+        "work": "Ervaring",
         "contact": "Contact"
     },
     "hero": {
@@ -20,6 +20,21 @@
             "fullstack": "Full Stack Developer",
             "agile": "Agile Teamspeler",
             "ai": "AI & Data Enthousiast"
+        }
+    },
+    "experience": {
+        "sectionSubText": "Wat ik tot nu toe heb gedaan",
+        "sectionHeadText": "Werkervaring.",
+        "woonboog": {
+            "title": "VBA Developer & IT Support",
+            "company": "Woonboog",
+            "date": "Juni 2024 - Juli 2024",
+            "points": [
+                "Ontwikkelde een geautomatiseerde VBA-applicatie in Excel om vastgoedrendement (verhuren vs. verkopen) te berekenen op basis van dynamische parameters zoals het aantal badkamers.",
+                "Transformeerde complexe handmatige spreadsheets naar intuïtieve en gebruiksvriendelijke dashboards met geautomatiseerde grafieken en duidelijke visuele indicatoren (rood/groen) ter ondersteuning van besluitvorming.",
+                "Aangeworven als jobstudent na een succesvolle stage van één maand om de financiële applicatie af te ronden en te implementeren.",
+                "Bood actieve IT-helpdeskondersteuning door dagelijkse technische problemen van medewerkers op te lossen en te helpen met kantoorinfrastructuur."
+            ]
         }
     }
 }

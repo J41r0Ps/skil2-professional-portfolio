@@ -61,6 +61,31 @@
   transform: translateZ(0);
 }
 
+.vertical-timeline::before {
+  background: #cad2c5 !important;
+}
+
+.dark .vertical-timeline::before {
+  background: #354f52 !important;
+}
+
+.vertical-timeline-element-date {
+  color: #2f3e46 !important;
+  font-weight: 600 !important;
+}
+
+.dark .vertical-timeline-element-date {
+  color: #cad2c5 !important;
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right: 7px solid #ffffff !important;
+}
+
+.dark .vertical-timeline-element-content-arrow {
+  border-right: 7px solid #111111 !important;
+}
+
 @keyframes mulShdSpin {
 
   0%,
