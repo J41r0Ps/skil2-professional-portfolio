@@ -3,6 +3,8 @@
         "role": "| APP/AI Engineer",
         "about": "Over mij",
         "work": "Ervaring",
+        "tech": "Skills",
+        "projects": "Projecten",
         "contact": "Contact"
     },
     "hero": {
@@ -31,10 +33,14 @@
             "date": "Juni 2024 - Juli 2024",
             "points": [
                 "Ontwikkelde een geautomatiseerde VBA-applicatie in Excel om vastgoedrendement (verhuren vs. verkopen) te berekenen op basis van dynamische parameters zoals het aantal badkamers.",
-                "Transformeerde complexe handmatige spreadsheets naar intuïtieve en gebruiksvriendelijke dashboards met geautomatiseerde grafieken en duidelijke visuele indicatoren (rood/groen) ter ondersteuning van besluitvorming.",
+                "Transformeerde complexe handmatige spreadsheets naar intuïtieve dashboards met geautomatiseerde grafieken en duidelijke visuele indicatoren (rood/groen) ter ondersteuning van besluitvorming.",
                 "Aangeworven als jobstudent na een succesvolle stage van één maand om de financiële applicatie af te ronden en te implementeren.",
-                "Bood actieve IT-helpdeskondersteuning door dagelijkse technische problemen van medewerkers op te lossen en te helpen met kantoorinfrastructuur."
+                "Bood actieve IT-helpdeskondersteuning door dagelijkse technische problemen op te lossen en te helpen met kantoorinfrastructuur."
             ]
         }
+    },
+    "tech": {
+        "sectionSubText": "Mijn Tech Stack",
+        "sectionHeadText": "Technologieën & Vaardigheden."
     }
 }

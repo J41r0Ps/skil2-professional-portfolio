@@ -3,6 +3,8 @@
         "role": "| Ingénieur APP/IA",
         "about": "À propos",
         "work": "Expérience",
+        "tech": "Compétences",
+        "projects": "Projets",
         "contact": "Contact"
     },
     "hero": {
@@ -31,10 +33,14 @@
             "date": "Juin 2024 - Juillet 2024",
             "points": [
                 "Développé une application automatisée en VBA dans Excel pour calculer la rentabilité immobilière (louer vs vendre) basée sur des paramètres dynamiques comme le nombre de salles de bain.",
-                "Transformé des feuilles de calcul manuelles complexes en tableaux de bord intuitifs et faciles à utiliser avec des graphiques automatisés et des indicateurs visuels clairs (rouge/vert) pour faciliter la prise de décision.",
+                "Transformé des feuilles de calcul complexes en tableaux de bord intuitifs avec graphiques automatisés et indicateurs visuels clairs (rouge/vert) pour faciliter la prise de décision.",
                 "Recruté comme étudiant après un stage réussi d’un mois afin de finaliser et déployer l’application financière.",
-                "Assuré un support IT helpdesk actif en résolvant les problèmes techniques quotidiens des employés et en aidant à la gestion de l’infrastructure bureautique."
+                "Assuré un support IT helpdesk actif en résolvant les problèmes techniques quotidiens et en aidant à l’infrastructure bureautique."
             ]
         }
+    },
+    "tech": {
+        "sectionSubText": "Mon Stack Technique",
+        "sectionHeadText": "Technologies & Compétences."
     }
 }

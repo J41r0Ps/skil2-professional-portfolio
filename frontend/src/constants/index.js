@@ -3,22 +3,23 @@ import {
   backend,
   ai,
   fullstack,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
+  netcore,
+  java,
+  python,
+  laravel,
+  react,
+  alpinejs,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
+  machineLearning,
+  pandas,
+  sql,
+  githubActions,
+  linux,
+  security,
   docker,
   carrent,
   jobit,
   tripguide,
-  threejs,
   woonboog,
 } from "../assets";
 
@@ -30,6 +31,14 @@ export const navLinks = [
   {
     id: "work",
     title: "navbar.work", 
+  },
+  {
+    id: "tech",
+    title: "navbar.tech",
+  },
+  {
+    id: "projects",
+    title: "navbar.projects", 
   },
   {
     id: "contact",
@@ -57,58 +66,27 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // --- BACKEND & ARCHITECTURE ---
+  { name: ".NET Core (C#)", icon: netcore },
+  { name: "Java (Spring Boot)", icon: java },
+  { name: "Python (FastAPI)", icon: python },
+  { name: "PHP (Laravel)", icon: laravel },
+  
+  // --- FRONTEND ---
+  { name: "React JS", icon: react },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Alpine.js", icon: alpinejs },
+  
+  // --- DATA & AI ---
+  { name: "Machine Learning", icon: machineLearning },
+  { name: "Data Science (Pandas/NumPy/Matplotlib)", icon: pandas },
+  { name: "SQL & Databases", icon: sql },
+  
+  // --- DEVOPS & SECURITY ---
+  { name: "Docker", icon: docker },
+  { name: "GitHub Actions (CI/CD)", icon: githubActions },
+  { name: "Linux", icon: linux },
+  { name: "Security (OWASP)", icon: security },
 ];
 
 const experiences = [

@@ -28,7 +28,7 @@ function Navbar() {
           <img src={logo} alt="Logo" className="w-9 h-9 object-contain" />
           <p className='text-text-light dark:text-white-100 text-[18px] font-bold cursor-pointer flex items-center transition-colors duration-300'>
             Jairo &nbsp;
-            <span className="md:block hidden text-secondary-light dark:text-secondary font-medium">
+            <span className="lg:block hidden text-secondary-light dark:text-secondary font-medium">
               {t('navbar.role')}
             </span>
           </p>

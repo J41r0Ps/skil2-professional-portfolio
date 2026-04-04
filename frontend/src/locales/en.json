@@ -3,6 +3,8 @@
         "role": "| APP/AI Engineer",
         "about": "About",
         "work": "Experience",
+        "tech": "Skills",
+        "projects": "Projects",
         "contact": "Contact"
     },
     "hero": {
@@ -36,5 +38,9 @@
                 "Provided active IT Helpdesk support, resolving daily technical issues for employees and assisting with office infrastructure."
             ]
         }
+    },
+    "tech": {
+        "sectionSubText": "My Tech Stack",
+        "sectionHeadText": "Technologies & Skills."
     }
 }
