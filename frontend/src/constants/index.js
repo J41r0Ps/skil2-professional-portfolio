@@ -3,20 +3,24 @@ import {
   backend,
   ai,
   fullstack,
-  netcore,
-  java,
-  python,
-  laravel,
+  html,
+  css,
+  javascript,
   react,
-  alpinejs,
   tailwind,
-  machineLearning,
+  alpinejs,
+  csharp,
+  dotnet,
+  java,
+  springboot,
+  python,
+  php,
+  laravel,
+  scikitlearn,
   pandas,
-  sql,
-  githubActions,
-  linux,
-  security,
-  docker,
+  numpy,
+  matplotlib,
+  mysql,
   carrent,
   jobit,
   tripguide,
@@ -66,27 +70,29 @@ const services = [
 ];
 
 const technologies = [
-  // --- BACKEND & ARCHITECTURE ---
-  { name: ".NET Core (C#)", icon: netcore },
-  { name: "Java (Spring Boot)", icon: java },
-  { name: "Python (FastAPI)", icon: python },
-  { name: "PHP (Laravel)", icon: laravel },
-  
-  // --- FRONTEND ---
+  // Frontend
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
   { name: "React JS", icon: react },
   { name: "Tailwind CSS", icon: tailwind },
-  { name: "Alpine.js", icon: alpinejs },
-  
-  // --- DATA & AI ---
-  { name: "Machine Learning", icon: machineLearning },
-  { name: "Data Science (Pandas/NumPy/Matplotlib)", icon: pandas },
-  { name: "SQL & Databases", icon: sql },
-  
-  // --- DEVOPS & SECURITY ---
-  { name: "Docker", icon: docker },
-  { name: "GitHub Actions (CI/CD)", icon: githubActions },
-  { name: "Linux", icon: linux },
-  { name: "Security (OWASP)", icon: security },
+  { name: "Alpine.js", icon: alpinejs }, 
+
+  // Backend
+  { name: "C#", icon: csharp }, 
+  { name: ".NET Core", icon: dotnet },
+  { name: "Java", icon: java },
+  { name: "Spring Boot", icon: springboot },
+  { name: "Python", icon: python },
+  { name: "PHP", icon: php },
+  { name: "Laravel", icon: laravel }, 
+
+  // Data and AI
+  { name: "Machine Learning", icon: scikitlearn }, 
+  { name: "Pandas", icon: pandas },
+  { name: "NumPy", icon: numpy }, 
+  { name: "Matplotlib", icon: matplotlib },
+  { name: "MySQL", icon: mysql }, 
 ];
 
 const experiences = [
