@@ -42,6 +42,15 @@
     },
     "tech": {
         "sectionSubText": "Mijn Tech Stack",
-        "sectionHeadText": "Technologieën & Vaardigheden."
+        "sectionHeadText": "Technologieën & Vaardigheden.",
+        "softSkillsTitle": "Soft Skills",
+        "softSkills": [
+            "Agile / Scrum",
+            "Probleemoplossend vermogen",
+            "Samenwerking in team",
+            "Aanpassingsvermogen",
+            "Tijdbeheer",
+            "Continu leren"
+        ]
     }
 }

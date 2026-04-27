@@ -42,6 +42,15 @@
     },
     "tech": {
         "sectionSubText": "Mi Stack Tecnológico",
-        "sectionHeadText": "Tecnologías y Habilidades."
+        "sectionHeadText": "Tecnologías y Habilidades.",
+        "softSkillsTitle": "Habilidades Blandas",
+        "softSkills": [
+            "Agile / Scrum",
+            "Resolución de problemas",
+            "Trabajo en equipo",
+            "Adaptabilidad",
+            "Gestión del tiempo",
+            "Aprendizaje continuo"
+        ]
     }
 }
