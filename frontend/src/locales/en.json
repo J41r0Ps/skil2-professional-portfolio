@@ -15,8 +15,9 @@
     "about": {
         "sectionSubText": "Introduction",
         "sectionHeadText": "Overview.",
-        "description": "I am a passionate Applied Computer Science student at Thomas More University, specializing in Application Development and Artificial Intelligence (APP/AI). With a strong foundation in backend engineering (C#, .NET, Python) and modern web frameworks (React), I thrive in Agile environments. I am a quick learner, always eager to tackle complex problems and build scalable, intelligent, and user-centric solutions.",
+        "description": "I chose Applied Computer Science with a specialization in APP/AI because I am fascinated by how data and algorithms can solve complex real-world problems. I build robust backend architectures (C#, Python, Java) and modern user interfaces (React, Tailwind).\n\nBeyond coding, I am passionate about football and fitness, which keep me disciplined, and I love traveling to discover new cultures. My ultimate dream is to become a Lead AI/Backend Engineer, creating intelligent systems that make a tangible difference. Oh, and I also pride myself on my soft skills: I am a proactive problem-solver and a strong Agile team player.",
         "downloadCV": "Download CV",
+        "viewCV": "View CV",
         "services": {
             "backend": "Backend Developer",
             "fullstack": "Full Stack Developer",

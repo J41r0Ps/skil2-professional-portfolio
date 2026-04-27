@@ -15,8 +15,9 @@
     "about": {
         "sectionSubText": "Introductie",
         "sectionHeadText": "Overzicht.",
-        "description": "Ik ben een gepassioneerde student Toegepaste Informatica aan Thomas More, gespecialiseerd in Application Development en Artificial Intelligence (APP/AI). Met een sterke basis in backend development (C#, .NET, Python) en moderne webframeworks (React), werk ik graag in Agile-omgevingen. Ik leer snel, ga graag complexe uitdagingen aan en bouw schaalbare, intelligente en gebruiksvriendelijke oplossingen.",
+        "description": "Ik heb gekozen voor Toegepaste Informatica met een specialisatie in APP/AI omdat ik gefascineerd ben door hoe data en algoritmes complexe problemen uit de echte wereld kunnen oplossen. Ik bouw robuuste backend-architecturen (C#, Python, Java) en moderne gebruikersinterfaces (React, Tailwind).\n\nNaast programmeren ben ik gepassioneerd door voetbal en fitness, wat mij discipline geeft, en ik reis graag om nieuwe culturen te ontdekken. Mijn ultieme doel is om Lead AI/Backend Engineer te worden en intelligente systemen te creëren die een echte impact hebben. Daarnaast hecht ik veel waarde aan mijn soft skills: ik ben een proactieve probleemoplosser en een sterke Agile teamspeler.",
         "downloadCV": "Download CV",
+        "viewCV": "Bekijk CV",
         "services": {
             "backend": "Backend Developer",
             "fullstack": "Full Stack Developer",

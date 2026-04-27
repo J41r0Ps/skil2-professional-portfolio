@@ -27,6 +27,12 @@ import pandas from "./tech/pandas.png";
 import numpy from "./tech/numpy.png";
 import matplotlib from "./tech/matplotlib.png";
 import mysql from "./tech/mysql.png";
+import mongodb from "./tech/mongodb.png";
+import docker from "./tech/docker.png";
+import githubActions from "./tech/github.png";
+import linux from "./tech/linux.png";
+import powershell from "./tech/powershell.png";
+import owasp from "./tech/owasp.png";
 
 import woonboog from "./company/woonboog.png";
 
@@ -61,6 +67,12 @@ export {
   numpy,
   matplotlib,
   mysql,
+  mongodb,
+  docker,
+  githubActions,
+  linux,
+  powershell,
+  owasp,
   carrent,
   jobit,
   tripguide,

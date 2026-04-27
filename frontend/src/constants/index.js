@@ -21,6 +21,12 @@ import {
   numpy,
   matplotlib,
   mysql,
+  mongodb,
+  docker,
+  githubActions,
+  linux,
+  powershell,
+  owasp,
   carrent,
   jobit,
   tripguide,
@@ -93,6 +99,14 @@ const technologies = [
   { name: "NumPy", icon: numpy }, 
   { name: "Matplotlib", icon: matplotlib },
   { name: "MySQL", icon: mysql }, 
+  { name: "MongoDB", icon: mongodb },
+
+  // Devops, OS and Security
+  { name: "Docker", icon: docker },
+  { name: "GitHub Actions", icon: githubActions },
+  { name: "Linux", icon: linux },
+  { name: "PowerShell", icon: powershell },
+  { name: "Security (OWASP)", icon: owasp },
 ];
 
 const experiences = [

@@ -13,15 +13,16 @@
         "subtitle2": "et des applications web modernes."
     },
     "about": {
-        "sectionSubText": "Introduction",
-        "sectionHeadText": "Aperçu.",
-        "description": "Je suis un étudiant passionné en informatique appliquée à Thomas More, spécialisé en développement d'applications et intelligence artificielle (APP/IA). Avec une solide base en développement backend (C#, .NET, Python) et en frameworks web modernes (React), je m’épanouis dans des environnements Agile. J’apprends rapidement, j’aime relever des défis complexes et construire des solutions évolutives, intelligentes et centrées sur l’utilisateur.",
-        "downloadCV": "Télécharger le CV",
+        "sectionSubText": "Introducción",
+        "sectionHeadText": "Resumen.",
+        "description": "Elegí Informática Aplicada con especialización en APP/IA porque me fascina cómo los datos y los algoritmos pueden resolver problemas complejos del mundo real. Construyo arquitecturas backend robustas (C#, Python, Java) y interfaces de usuario modernas (React, Tailwind).\n\nMás allá de programar, me apasionan el fútbol y el fitness, que me ayudan a mantener la disciplina, y me encanta viajar para descubrir nuevas culturas. Mi objetivo final es convertirme en Lead AI/Backend Engineer, creando sistemas inteligentes que tengan un impacto real. Además, me enorgullecen mis habilidades blandas: soy un solucionador de problemas proactivo y un fuerte colaborador en entornos Agile.",
+        "downloadCV": "Descargar CV",
+        "viewCV": "Ver CV",
         "services": {
-            "backend": "Développeur Backend",
-            "fullstack": "Développeur Full Stack",
-            "agile": "Collaborateur Agile",
-            "ai": "Passionné d’IA et de Données"
+            "backend": "Desarrollador Backend",
+            "fullstack": "Desarrollador Full Stack",
+            "agile": "Colaborador Agile",
+            "ai": "Entusiasta de IA y Datos"
         }
     },
     "experience": {
