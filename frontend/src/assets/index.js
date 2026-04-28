@@ -8,8 +8,9 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import profile from "./profile.jpg";
 import figma from './figma.png';
+import website from './website.png';
 
-
+// tech icons
 import html from "./tech/html.png";
 import css from "./tech/css.png";
 import javascript from "./tech/javascript.png";
@@ -23,6 +24,7 @@ import springboot from "./tech/springboot.png";
 import python from "./tech/python.png";
 import php from "./tech/php.png";
 import laravel from "./tech/laravel.png";
+import livewire from "./tech/livewire.svg";
 import scikitlearn from "./tech/scikitlearn.png";
 import pandas from "./tech/pandas.png";
 import numpy from "./tech/numpy.png";
@@ -35,11 +37,15 @@ import linux from "./tech/linux.png";
 import powershell from "./tech/powershell.png";
 import owasp from "./tech/owasp.png";
 
+// company logos
 import woonboog from "./company/woonboog.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+// project images
+import bAndbChezNatalie from "./projects/bAndbChezNatalie.png";
+import feestOpTafel from "./projects/feestOpTafel.png";
+import evently from "./projects/evently.png";
+import tourDeFrance from "./projects/tourDeFrance.png";
 
 export {
   logo,
@@ -48,6 +54,7 @@ export {
   agile,
   fullstack,
   github,
+  website,
   menu,
   close,
   html,
@@ -63,6 +70,7 @@ export {
   python,
   php,
   laravel,
+  livewire,
   scikitlearn,
   pandas,
   numpy,
@@ -74,10 +82,11 @@ export {
   linux,
   powershell,
   owasp,
-  carrent,
-  jobit,
-  tripguide,
   profile,
   woonboog,
   figma,
+  bAndbChezNatalie,
+  feestOpTafel,
+  evently,
+  tourDeFrance,
 };
