@@ -52,5 +52,28 @@
             "Gestión del tiempo",
             "Aprendizaje continuo"
         ]
+    },
+    "projects": {
+        "sectionSubText": "Mi trabajo",
+        "sectionHeadText": "Proyectos.",
+        "description": "Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos reales. Cada proyecto se describe brevemente con enlaces a repositorios de código y demos en vivo cuando están disponibles. Reflejan mi capacidad para resolver problemas complejos, trabajar con tecnologías modernas y gestionar proyectos de manera efectiva desde el análisis hasta el despliegue.",
+        "list": {
+            "chez_natalie": {
+                "name": "B&B Chez Natalie (Diseño de Sistemas)",
+                "description": "Lideré la fase inicial (análisis y diseño) de un sistema de gestión para un B&B. Traduje requisitos de negocio en diagramas de casos de uso detallados, diseñé un modelo de datos relacional robusto (ERD) y creé prototipos interactivos de alta fidelidad en Figma aplicando metodologías Agile estrictas."
+            },
+            "feest_op_tafel": {
+                "name": "Feest Op Tafel",
+                "description": "Proyecto colaborativo (SKIL2) desarrollando una aplicación web completa para un cliente. Construido con el stack TALL, integrando Stripe para pagos seguros y Chart.js para visualización de datos. Se aplicaron metodologías Scrum estrictas para entregar un Proof of Concept completamente funcional."
+            },
+            "evently": {
+                "name": "Evently",
+                "description": "Aplicación web completa que actúa como un hub central para organizadores y participantes de eventos. Incluye control de acceso basado en roles, operaciones CRUD completas, subida de imágenes, validación del lado del servidor y soporte multilenguaje, construida con TALL stack y Livewire 3."
+            },
+            "tour_de_france": {
+                "name": "Análisis de Datos del Tour de Francia",
+                "description": "Proyecto de Data Science que explora la rica historia del Tour de Francia. Incluyó web scraping complejo con BeautifulSoup, limpieza rigurosa de datos y análisis de nacionalidades, edades y distancias de carrera. Visualización de tendencias históricas con Python, NumPy y Matplotlib."
+            }
+        }
     }
 }

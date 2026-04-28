@@ -31,6 +31,7 @@ import {
   jobit,
   tripguide,
   woonboog,
+  figma,
 } from "../assets";
 
 export const navLinks = [
@@ -125,97 +126,56 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "projects.list.chez_natalie.name",
+    description: "projects.list.chez_natalie.description",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "Figma", icon: figma },
+      { name: "SQL", icon: mysql }, 
+      { name: "Agile", icon: agile },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: carrent, 
+    source_code_link: "https://github.com/J41r0Ps/bb-chez-natalie-system-analysis",
+    live_demo_link: null, 
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "projects.list.feest_op_tafel.name",
+    description: "projects.list.feest_op_tafel.description",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "Laravel", icon: laravel },
+      { name: "Tailwind", icon: tailwind },
+      { name: "Alpine.js", icon: alpinejs },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tripguide, 
+    source_code_link: "https://github.com/itfactory-tm/2026-ProjectSKIL2-401",
+    live_demo_link: "https://krea.feestoptafel.be/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "projects.list.evently.name",
+    description: "projects.list.evently.description",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "Laravel", icon: laravel },
+      { name: "Tailwind", icon: tailwind },
+      { name: "Alpine.js", icon: alpinejs },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jobit, 
+    source_code_link: "https://github.com/itfactory-tm/2appai02-2025-2026-webdev-personal-project-J41r0Ps",
+    live_demo_link: "https://itf.evently-jan.be/",
+  },
+  {
+    name: "projects.list.tour_de_france.name",
+    description: "projects.list.tour_de_france.description",
+    tags: [
+      { name: "Python", icon: python },
+      { name: "Pandas", icon: pandas },
+      { name: "Matplotlib", icon: matplotlib },
+    ],
+    image: carrent, 
+    source_code_link: "https://github.com/J41r0Ps/Project_DataScience_2025-2026",
+    live_demo_link: null, 
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences,  projects };

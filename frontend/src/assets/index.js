@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import profile from "./profile.jpg";
+import figma from './figma.png';
 
 
 import html from "./tech/html.png";
@@ -78,4 +79,5 @@ export {
   tripguide,
   profile,
   woonboog,
+  figma,
 };

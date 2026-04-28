@@ -52,5 +52,28 @@
             "Time Management",
             "Continuous Learning"
         ]
+    },
+    "projects": {
+        "sectionSubText": "My work",
+        "sectionHeadText": "Projects.",
+        "description": "The following projects showcase my skills and experience through real-world examples. Each project is briefly described with links to code repositories and live demos where available. They reflect my ability to solve complex problems, work with modern technologies, and manage projects effectively from analysis to deployment.",
+        "list": {
+            "chez_natalie": {
+                "name": "B&B Chez Natalie (System Design)",
+                "description": "Led the preliminary track (analysis and design) for a B&B management system. Translated business requirements into detailed Use Case Diagrams, designed a robust relational Data Model (ERD), and created high-fidelity interactive prototypes in Figma applying strict Agile methodologies."
+            },
+            "feest_op_tafel": {
+                "name": "Feest Op Tafel",
+                "description": "Collaborative SKIL2 project developing a comprehensive web application for a client. Built with the TALL stack, integrating Stripe for secure payments and Chart.js for data visualization. Applied strict Scrum methodologies to deliver a fully functional, production-ready Proof of Concept."
+            },
+            "evently": {
+                "name": "Evently",
+                "description": "A comprehensive web application serving as a central hub for event organizers and participants. Features role-based access control, full CRUD operations, image uploads, server-side validation, and multi-language support built entirely on the TALL stack and Livewire 3."
+            },
+            "tour_de_france": {
+                "name": "Tour de France Data Analysis",
+                "description": "Data Science project exploring the rich history of the Tour de France. Involved complex web scraping with BeautifulSoup, rigorous data cleaning, and insightful analysis of winner nationalities, ages, and race lengths. Visualized historical trends and records using Python, NumPy, and Matplotlib."
+            }
+        }
     }
 }

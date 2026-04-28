@@ -52,5 +52,28 @@
             "Tijdbeheer",
             "Continu leren"
         ]
+    },
+    "projects": {
+        "sectionSubText": "Mijn werk",
+        "sectionHeadText": "Projecten.",
+        "description": "De volgende projecten tonen mijn vaardigheden en ervaring via realistische voorbeelden. Elk project wordt kort beschreven met links naar code repositories en live demo's waar beschikbaar. Ze weerspiegelen mijn vermogen om complexe problemen op te lossen, met moderne technologieën te werken en projecten efficiënt te beheren van analyse tot deployment.",
+        "list": {
+            "chez_natalie": {
+                "name": "B&B Chez Natalie (System Design)",
+                "description": "Leidde het voortraject (analyse en ontwerp) voor een B&B-beheersysteem. Vertaalde business requirements naar gedetailleerde Use Case Diagrammen, ontwierp een robuust relationeel datamodel (ERD) en creëerde high-fidelity interactieve prototypes in Figma volgens strikte Agile-methodologieën."
+            },
+            "feest_op_tafel": {
+                "name": "Feest Op Tafel",
+                "description": "Samenwerkingsproject (SKIL2) waarbij een uitgebreide webapplicatie voor een klant werd ontwikkeld. Gebouwd met de TALL-stack, met integratie van Stripe voor veilige betalingen en Chart.js voor datavisualisatie. Toegepaste Scrum-methodologieën resulteerden in een volledig functionele Proof of Concept."
+            },
+            "evently": {
+                "name": "Evently",
+                "description": "Een uitgebreide webapplicatie als centraal platform voor eventorganisatoren en deelnemers. Bevat role-based access control, volledige CRUD-functionaliteit, image uploads, server-side validatie en meertalige ondersteuning, gebouwd met de TALL-stack en Livewire 3."
+            },
+            "tour_de_france": {
+                "name": "Tour de France Data Analyse",
+                "description": "Data Science-project dat de rijke geschiedenis van de Tour de France onderzoekt. Omvatte complexe web scraping met BeautifulSoup, grondige datacleaning en analyse van nationaliteiten, leeftijden en afstanden van winnaars. Historische trends en records gevisualiseerd met Python, NumPy en Matplotlib."
+            }
+        }
     }
 }
