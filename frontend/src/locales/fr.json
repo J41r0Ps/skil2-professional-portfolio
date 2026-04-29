@@ -79,5 +79,17 @@
     "footer": {
         "rights": "Tous droits réservés.",
         "built": "Développé avec React et Tailwind"
+    },
+    "contact": {
+        "sectionSubText": "Entrer en contact",
+        "sectionHeadText": "Contact.",
+        "nameLabel": "Votre nom",
+        "namePlaceholder": "Comment vous appelez-vous ?",
+        "emailLabel": "Votre e-mail",
+        "emailPlaceholder": "Quelle est votre adresse e-mail ?",
+        "messageLabel": "Votre message",
+        "messagePlaceholder": "Que souhaitez-vous dire ?",
+        "sendButton": "Envoyer le message",
+        "sendingButton": "Envoi..."
     }
 }

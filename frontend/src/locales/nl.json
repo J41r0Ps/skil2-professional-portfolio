@@ -79,5 +79,17 @@
     "footer": {
         "rights": "Alle rechten voorbehouden.",
         "built": "Gebouwd met React & Tailwind"
+    },
+    "contact": {
+        "sectionSubText": "Neem contact op",
+        "sectionHeadText": "Contact.",
+        "nameLabel": "Je naam",
+        "namePlaceholder": "Hoe heet je?",
+        "emailLabel": "Je e-mailadres",
+        "emailPlaceholder": "Wat is je e-mailadres?",
+        "messageLabel": "Je bericht",
+        "messagePlaceholder": "Wat wil je zeggen?",
+        "sendButton": "Verstuur bericht",
+        "sendingButton": "Verzenden..."
     }
 }

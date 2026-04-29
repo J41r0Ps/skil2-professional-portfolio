@@ -12,10 +12,11 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
+
       </div>
 
       <div className='relative z-0 bg-primary-light dark:bg-primary transition-colors duration-300'>
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </div>
     </BrowserRouter>
