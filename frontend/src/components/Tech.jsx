@@ -14,7 +14,6 @@ function Tech() {
 
   return (
     <>
-      {/* --- TÍTULO PRINCIPAL --- */}
       <motion.div variants={textVariant()} className="mb-10 text-center">
         <p className={`${styles.sectionSubText} text-secondary-light dark:text-secondary transition-colors duration-300`}>
           {t('tech.sectionSubText')}

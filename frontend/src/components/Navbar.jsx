@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -12,6 +12,31 @@ function Navbar() {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const { t } = useTranslation();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section[id]");
+      let currentSectionId = "";
+
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (window.scrollY >= sectionTop - 100 && window.scrollY < sectionTop + sectionHeight - 100) {
+          currentSectionId = section.getAttribute("id");
+        }
+      });
+
+      const currentLink = navLinks.find(link => link.id === currentSectionId);
+      if (currentLink) {
+        setActive(currentLink.title);
+      } else if (window.scrollY < 50) {
+        setActive("");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <nav

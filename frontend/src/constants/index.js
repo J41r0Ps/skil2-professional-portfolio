@@ -147,9 +147,9 @@ const projects = [
     name: "projects.list.feest_op_tafel.name",
     description: "projects.list.feest_op_tafel.description",
     tags: [
-      { name: "Laravel", icon: laravel },
       { name: "Tailwind", icon: tailwind },
       { name: "Alpine.js", icon: alpinejs },
+      { name: "Laravel", icon: laravel },
       { name: "Livewire", icon: livewire },
     ],
     image: feestOpTafel, 
@@ -160,9 +160,9 @@ const projects = [
     name: "projects.list.evently.name",
     description: "projects.list.evently.description",
     tags: [
-      { name: "Laravel", icon: laravel },
       { name: "Tailwind", icon: tailwind },
       { name: "Alpine.js", icon: alpinejs },
+      { name: "Laravel", icon: laravel },
       { name: "Livewire", icon: livewire },
     ],
     image: evently, 
@@ -174,9 +174,9 @@ const projects = [
     description: "projects.list.tour_de_france.description",
     tags: [
       { name: "Python", icon: python },
-      { name: "Pandas", icon: pandas },
       { name: "NumPy", icon: numpy },
       { name: "Matplotlib", icon: matplotlib },
+      { name: "Pandas", icon: pandas },
     ],
     image: tourDeFrance, 
     source_code_link: "https://github.com/J41r0Ps/Project_DataScience_2025-2026",

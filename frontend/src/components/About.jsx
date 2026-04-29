@@ -7,7 +7,8 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-import { profile } from "../assets";
+// IMPORTANTE: Asegúrate de importar 'hobby' desde tus assets (junto con profile)
+import { profile, hobby } from "../assets";
 import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
@@ -17,14 +18,14 @@ const ServiceCard = ({ index, title, icon }) => {
         <Tilt className="xs:w-[250px] w-full">
             <motion.div
                 variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-                className="w-full ash-teal-gradient p-[1px] rounded-[20px] shadow-card"
+                className="w-full bg-primary-light dark:bg-tertiary rounded-[20px] shadow-card border border-secondary/20 dark:border-white/10 transition-colors duration-300"
             >
                 <div
                     options={{ max: 45, scale: 1, speed: 450 }}
-                    className="bg-primary-light dark:bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col transition-colors duration-300"
+                    className="rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
                 >
                     <img src={icon} alt="service-icon" className="w-16 h-16 object-contain" />
-                    <h3 className="text-text-light dark:text-white text-[20px] font-bold text-center transition-colors duration-300">
+                    <h3 className="text-primary dark:text-white text-[20px] font-bold text-center transition-colors duration-300">
                         {t(title)}
                     </h3>
                 </div>
@@ -39,7 +40,7 @@ const About = () => {
     return (
         <section id="about" className="relative w-full">
 
-            <div className="flex flex-col md:flex-row gap-10 items-center md:items-start">
+            <div className="flex flex-col lg:flex-row gap-14 items-center lg:items-start">
 
                 <div className="flex-1">
                     <motion.div variants={textVariant()}>
@@ -62,29 +63,38 @@ const About = () => {
                         <a
                             href="/cv.pdf"
                             download="Jairo_Nacurena_CV.pdf"
-                            className="bg-jairo-accent text-white py-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md shadow-primary hover:bg-opacity-80 transition-all cursor-pointer"
+                            className="bg-jairo-accent text-white py-3 px-8 rounded-xl outline-none w-fit font-bold shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer inline-block"
                         >
                             {t('about.downloadCV')}
                         </a>
                     </motion.div>
                 </div>
 
-                <motion.div
-                    variants={fadeIn("left", "spring", 0.5, 1)}
-                    className="flex-1 flex justify-center items-center mt-10 md:mt-0"
-                >
-                    <div className="w-[250px] sm:w-[300px] h-[250px] sm:h-[300px] rounded-full p-[3px] ash-teal-gradient shadow-card">
-                        <img
+                <div className="flex-1 flex justify-center items-center mt-10 md:mt-0 w-full">
+
+                    <div className="relative w-[280px] h-[320px] sm:w-[400px] sm:h-[450px] mx-auto">
+
+                        <motion.img
+                            variants={fadeIn("right", "spring", 0.5, 1)}
                             src={profile}
-                            alt="Jairo Nacurena"
-                            className="w-full h-full object-cover rounded-full bg-primary-light dark:bg-tertiary"
+                            alt="Jairo Profesional"
+                            className="absolute top-0 left-0 w-[200px] h-[250px] sm:w-[280px] sm:h-[350px] object-cover rounded-2xl shadow-card border-4 border-primary-light dark:border-tertiary z-10 transition-colors duration-300"
                         />
+
+                        <motion.img
+                            variants={fadeIn("left", "spring", 0.7, 1)}
+                            src={hobby}
+                            alt="Jairo Hobby"
+                            className="absolute bottom-0 right-0 w-[150px] h-[150px] sm:w-[220px] sm:h-[220px] object-cover rounded-full shadow-card border-4 border-primary-light dark:border-tertiary z-20 transition-colors duration-300"
+                        />
+
                     </div>
-                </motion.div>
+                </div>
 
             </div>
 
-            <div className="mt-20 flex flex-wrap gap-10 justify-center md:justify-start">
+            {/* TARJETAS DE SERVICIOS */}
+            <div className="mt-20 flex flex-wrap gap-10 justify-center lg:justify-start">
                 {services.map((service, index) => (
                     <ServiceCard key={service.title} index={index} {...service} />
                 ))}

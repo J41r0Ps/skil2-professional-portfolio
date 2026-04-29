@@ -9,6 +9,7 @@ import close from "./close.svg";
 import profile from "./profile.jpg";
 import figma from './figma.png';
 import website from './website.png';
+import hobby from './hobby.jpg';
 
 // tech icons
 import html from "./tech/html.png";
@@ -89,4 +90,5 @@ export {
   feestOpTafel,
   evently,
   tourDeFrance,
+  hobby,
 };
