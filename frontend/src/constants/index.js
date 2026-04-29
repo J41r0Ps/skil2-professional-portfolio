@@ -163,6 +163,7 @@ const projects = [
       { name: "Laravel", icon: laravel },
       { name: "Tailwind", icon: tailwind },
       { name: "Alpine.js", icon: alpinejs },
+      { name: "Livewire", icon: livewire },
     ],
     image: evently, 
     source_code_link: "https://github.com/itfactory-tm/2appai02-2025-2026-webdev-personal-project-J41r0Ps",
