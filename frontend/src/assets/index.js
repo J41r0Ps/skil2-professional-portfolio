@@ -9,6 +9,7 @@ import close from "./close.svg";
 import profile from "./profile.jpg";
 import figma from './figma.png';
 import website from './website.png';
+import linkedin from './linkedin.png';
 import hobby from './hobby.jpg';
 
 // tech icons
@@ -56,6 +57,7 @@ export {
   fullstack,
   github,
   website,
+  linkedin,
   menu,
   close,
   html,

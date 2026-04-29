@@ -75,5 +75,9 @@
                 "description": "Projet de Data Science explorant la riche histoire du Tour de France. Comprend du web scraping complexe avec BeautifulSoup, un nettoyage rigoureux des données et une analyse des nationalités, âges et distances des vainqueurs. Visualisation des tendances historiques avec Python, NumPy et Matplotlib."
             }
         }
+    },
+    "footer": {
+        "rights": "Tous droits réservés.",
+        "built": "Développé avec React et Tailwind"
     }
 }
