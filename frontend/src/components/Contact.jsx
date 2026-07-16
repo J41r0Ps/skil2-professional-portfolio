@@ -1,3 +1,8 @@
+/**
+ * Contact form — CURRENTLY DISABLED (commented out in App.jsx) until the
+ * C# backend endpoint exists. The submit handler only simulates a request;
+ * see the block comment inside handleSubmit for the planned API call.
+ */
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';

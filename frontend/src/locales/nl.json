@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "role": "| APP/AI Engineer",
+        "role": "APP/AI Engineer",
         "about": "Over mij",
         "work": "Ervaring",
         "tech": "Skills",
@@ -10,7 +10,10 @@
     "hero": {
         "greeting": "Hoi, ik ben",
         "subtitle1": "Ik ontwikkel robuuste backend-API's, AI-modellen,",
-        "subtitle2": "en moderne webapplicaties."
+        "subtitle2": "en moderne webapplicaties.",
+        "viewProjects": "Bekijk projecten",
+        "location": "Gevestigd in België",
+        "scroll": "scroll"
     },
     "about": {
         "sectionSubText": "Introductie",
@@ -43,6 +46,12 @@
     "tech": {
         "sectionSubText": "Mijn Tech Stack",
         "sectionHeadText": "Technologieën & Vaardigheden.",
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "data": "Data & AI",
+            "devops": "DevOps & Security"
+        },
         "softSkillsTitle": "Soft Skills",
         "softSkills": [
             "Agile / Scrum",
@@ -56,6 +65,8 @@
     "projects": {
         "sectionSubText": "Mijn werk",
         "sectionHeadText": "Projecten.",
+        "viewCode": "Bekijk code",
+        "liveDemo": "Live demo",
         "description": "De volgende projecten tonen mijn vaardigheden en ervaring via realistische voorbeelden. Elk project wordt kort beschreven met links naar code repositories en live demo's waar beschikbaar. Ze weerspiegelen mijn vermogen om complexe problemen op te lossen, met moderne technologieën te werken en projecten efficiënt te beheren van analyse tot deployment.",
         "list": {
             "chez_natalie": {
@@ -77,6 +88,10 @@
         }
     },
     "footer": {
+        "ctaKicker": "Wat nu",
+        "ctaTitle": "Laten we samen iets bouwen.",
+        "ctaText": "Ik sta open voor stages, juniorfuncties en interessante projecten. Denk je dat we kunnen samenwerken? Mijn inbox staat open.",
+        "ctaButton": "Zeg hallo",
         "rights": "Alle rechten voorbehouden.",
         "built": "Gebouwd met React & Tailwind"
     },

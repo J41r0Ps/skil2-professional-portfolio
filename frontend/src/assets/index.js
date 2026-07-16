@@ -1,3 +1,9 @@
+/**
+ * Barrel for every static asset (logos, icons, photos, screenshots).
+ * Import from "../assets" so Vite fingerprints the files and components
+ * never hardcode paths. Heavy images are pre-optimized WebP — run
+ * `npm run optimize:images` when adding new screenshots or photos.
+ */
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import ai from "./ai.png";
@@ -6,11 +12,11 @@ import fullstack from "./fullstack.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import profile from "./profile.jpg";
+import profile from "./profile.webp";
 import figma from './figma.png';
 import website from './website.png';
 import linkedin from './linkedin.png';
-import hobby from './hobby.jpg';
+import hobby from './hobby.webp';
 
 // tech icons
 import html from "./tech/html.png";
@@ -43,11 +49,11 @@ import owasp from "./tech/owasp.png";
 import woonboog from "./company/woonboog.png";
 
 
-// project images
-import bAndbChezNatalie from "./projects/bAndbChezNatalie.png";
-import feestOpTafel from "./projects/feestOpTafel.png";
-import evently from "./projects/evently.png";
-import tourDeFrance from "./projects/tourDeFrance.png";
+// project images (WebP — see scripts/optimize-images.mjs)
+import bAndbChezNatalie from "./projects/bAndbChezNatalie.webp";
+import feestOpTafel from "./projects/feestOpTafel.webp";
+import evently from "./projects/evently.webp";
+import tourDeFrance from "./projects/tourDeFrance.webp";
 
 export {
   logo,

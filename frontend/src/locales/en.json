@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "role": "| APP/AI Engineer",
+        "role": "APP/AI Engineer",
         "about": "About",
         "work": "Experience",
         "tech": "Skills",
@@ -10,7 +10,10 @@
     "hero": {
         "greeting": "Hi, I'm",
         "subtitle1": "I develop robust backend APIs, AI models,",
-        "subtitle2": "and modern web applications."
+        "subtitle2": "and modern web applications.",
+        "viewProjects": "View projects",
+        "location": "Based in Belgium",
+        "scroll": "scroll"
     },
     "about": {
         "sectionSubText": "Introduction",
@@ -43,6 +46,12 @@
     "tech": {
         "sectionSubText": "My Tech Stack",
         "sectionHeadText": "Technologies & Skills.",
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "data": "Data & AI",
+            "devops": "DevOps & Security"
+        },
         "softSkillsTitle": "Soft Skills",
         "softSkills": [
             "Agile / Scrum",
@@ -56,6 +65,8 @@
     "projects": {
         "sectionSubText": "My work",
         "sectionHeadText": "Projects.",
+        "viewCode": "View code",
+        "liveDemo": "Live demo",
         "description": "The following projects showcase my skills and experience through real-world examples. Each project is briefly described with links to code repositories and live demos where available. They reflect my ability to solve complex problems, work with modern technologies, and manage projects effectively from analysis to deployment.",
         "list": {
             "chez_natalie": {
@@ -77,6 +88,10 @@
         }
     },
     "footer": {
+        "ctaKicker": "What's next",
+        "ctaTitle": "Let's build something together.",
+        "ctaText": "I'm open to internships, junior roles, and interesting projects. If you think we could work together, my inbox is open.",
+        "ctaButton": "Say hello",
         "rights": "All rights reserved.",
         "built": "Built with React & Tailwind"
     },

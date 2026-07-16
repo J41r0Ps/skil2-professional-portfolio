@@ -1,6 +1,11 @@
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 
+/**
+ * Compact language switcher: shows the current language code and cycles
+ * en → nl → es → fr on click. Also keeps <html lang> in sync for
+ * screen readers and search engines.
+ */
 const LangToggle = () => {
     const { i18n } = useTranslation();
     const languages = ['en', 'nl', 'es', 'fr'];

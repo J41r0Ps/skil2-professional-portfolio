@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "role": "| Ingeniero APP/IA",
+        "role": "Ingeniero APP/IA",
         "about": "Sobre mí",
         "work": "Experiencia",
         "tech": "Habilidades",
@@ -10,7 +10,10 @@
     "hero": {
         "greeting": "Hola, soy",
         "subtitle1": "Desarrollo APIs backend robustas, modelos de IA,",
-        "subtitle2": "y aplicaciones web modernas."
+        "subtitle2": "y aplicaciones web modernas.",
+        "viewProjects": "Ver proyectos",
+        "location": "Con base en Bélgica",
+        "scroll": "desliza"
     },
     "about": {
         "sectionSubText": "Introducción",
@@ -43,6 +46,12 @@
     "tech": {
         "sectionSubText": "Mi Stack Tecnológico",
         "sectionHeadText": "Tecnologías y Habilidades.",
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "data": "Datos e IA",
+            "devops": "DevOps y Seguridad"
+        },
         "softSkillsTitle": "Habilidades Blandas",
         "softSkills": [
             "Agile / Scrum",
@@ -56,6 +65,8 @@
     "projects": {
         "sectionSubText": "Mi trabajo",
         "sectionHeadText": "Proyectos.",
+        "viewCode": "Ver código",
+        "liveDemo": "Demo en vivo",
         "description": "Los siguientes proyectos muestran mis habilidades y experiencia a través de ejemplos reales. Cada proyecto se describe brevemente con enlaces a repositorios de código y demos en vivo cuando están disponibles. Reflejan mi capacidad para resolver problemas complejos, trabajar con tecnologías modernas y gestionar proyectos de manera efectiva desde el análisis hasta el despliegue.",
         "list": {
             "chez_natalie": {
@@ -77,6 +88,10 @@
         }
     },
     "footer": {
+        "ctaKicker": "Qué sigue",
+        "ctaTitle": "Construyamos algo juntos.",
+        "ctaText": "Estoy abierto a pasantías, puestos junior y proyectos interesantes. Si crees que podemos trabajar juntos, mi bandeja de entrada está abierta.",
+        "ctaButton": "Escríbeme",
         "rights": "Todos los derechos reservados.",
         "built": "Desarrollado con React y Tailwind"
     },

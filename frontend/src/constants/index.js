@@ -1,3 +1,11 @@
+/**
+ * Site content data: nav links, services, technologies, work experience,
+ * and projects.
+ *
+ * Text fields hold i18n KEYS (resolved by components via `t()`), never
+ * final copy — the actual strings live in src/locales/*.json in all four
+ * languages. Icons/images are imported through the assets barrel.
+ */
 import {
   agile,
   backend,
@@ -80,37 +88,45 @@ const services = [
 
 const technologies = [
   // Frontend
-  { name: "HTML 5", icon: html },
-  { name: "CSS 3", icon: css },
-  { name: "JavaScript", icon: javascript },
-  { name: "React JS", icon: react },
-  { name: "Tailwind CSS", icon: tailwind },
-  { name: "Alpine.js", icon: alpinejs }, 
+  { name: "HTML 5", icon: html, category: "frontend" },
+  { name: "CSS 3", icon: css, category: "frontend" },
+  { name: "JavaScript", icon: javascript, category: "frontend" },
+  { name: "React JS", icon: react, category: "frontend" },
+  { name: "Tailwind CSS", icon: tailwind, category: "frontend" },
+  { name: "Alpine.js", icon: alpinejs, category: "frontend" },
 
   // Backend
-  { name: "C#", icon: csharp }, 
-  { name: ".NET Core", icon: dotnet },
-  { name: "Java", icon: java },
-  { name: "Spring Boot", icon: springboot },
-  { name: "Python", icon: python },
-  { name: "PHP", icon: php },
-  { name: "Laravel", icon: laravel }, 
-  { name: "Livewire", icon: livewire }, 
+  { name: "C#", icon: csharp, category: "backend" },
+  { name: ".NET Core", icon: dotnet, category: "backend" },
+  { name: "Java", icon: java, category: "backend" },
+  { name: "Spring Boot", icon: springboot, category: "backend" },
+  { name: "Python", icon: python, category: "backend" },
+  { name: "PHP", icon: php, category: "backend" },
+  { name: "Laravel", icon: laravel, category: "backend" },
+  { name: "Livewire", icon: livewire, category: "backend" },
 
   // Data and AI
-  { name: "Machine Learning", icon: scikitlearn }, 
-  { name: "Pandas", icon: pandas },
-  { name: "NumPy", icon: numpy }, 
-  { name: "Matplotlib", icon: matplotlib },
-  { name: "MySQL", icon: mysql }, 
-  { name: "MongoDB", icon: mongodb },
+  { name: "Machine Learning", icon: scikitlearn, category: "data" },
+  { name: "Pandas", icon: pandas, category: "data" },
+  { name: "NumPy", icon: numpy, category: "data" },
+  { name: "Matplotlib", icon: matplotlib, category: "data" },
+  { name: "MySQL", icon: mysql, category: "data" },
+  { name: "MongoDB", icon: mongodb, category: "data" },
 
   // Devops, OS and Security
-  { name: "Docker", icon: docker },
-  { name: "GitHub Actions", icon: githubActions },
-  { name: "Linux", icon: linux },
-  { name: "PowerShell", icon: powershell },
-  { name: "Security (OWASP)", icon: owasp },
+  { name: "Docker", icon: docker, category: "devops" },
+  { name: "GitHub Actions", icon: githubActions, category: "devops" },
+  { name: "Linux", icon: linux, category: "devops" },
+  { name: "PowerShell", icon: powershell, category: "devops" },
+  { name: "Security (OWASP)", icon: owasp, category: "devops" },
+];
+
+/** Display order and i18n label keys for the skill groups in Tech.jsx. */
+const techCategories = [
+  { id: "frontend", label: "tech.categories.frontend" },
+  { id: "backend", label: "tech.categories.backend" },
+  { id: "data", label: "tech.categories.data" },
+  { id: "devops", label: "tech.categories.devops" },
 ];
 
 const experiences = [
@@ -184,4 +200,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences,  projects };
+export { services, technologies, techCategories, experiences, projects };

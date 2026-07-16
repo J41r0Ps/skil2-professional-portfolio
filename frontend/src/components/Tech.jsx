@@ -1,12 +1,27 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import Tilt from "react-parallax-tilt";
 
 import { SectionWrapper } from "../hoc"
-import { technologies } from "../constants"
-import { styles } from "../styles"
-import { textVariant, fadeIn } from "../utils/motion";
+import { technologies, techCategories } from "../constants"
+import { fadeIn } from "../utils/motion";
+import SectionHeader from "./SectionHeader";
 
+/** Small icon + label chip for one technology. */
+const TechChip = ({ name, icon }) => (
+  <li className="group flex items-center gap-2.5 rounded-xl border border-secondary-light/15 dark:border-secondary/10 bg-white/70 dark:bg-tertiary px-4 py-2.5 transition-all duration-300 hover:-translate-y-0.5 hover:border-jairo-accent/50 dark:hover:border-accent-bright/40 hover:shadow-card-light dark:hover:shadow-card">
+    <img src={icon} alt="" loading="lazy" decoding="async" className="h-6 w-6 object-contain" />
+    <span className="text-[14px] font-medium text-text-light dark:text-white-100 transition-colors duration-300">
+      {name}
+    </span>
+  </li>
+);
+
+/**
+ * "Skills" section: hard skills grouped into rows by category (frontend,
+ * backend, data & AI, devops — defined in constants/techCategories), plus
+ * soft skills as a closing dashed-chip row. Categories are two-column on
+ * desktop: mono label left, chips right.
+ */
 function Tech() {
   const { t } = useTranslation();
 
@@ -14,61 +29,54 @@ function Tech() {
 
   return (
     <>
-      <motion.div variants={textVariant()} className="mb-10 text-center">
-        <p className={`${styles.sectionSubText} text-secondary-light dark:text-secondary transition-colors duration-300`}>
-          {t('tech.sectionSubText')}
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-primary dark:text-white transition-colors duration-300`}>
-          {t('tech.sectionHeadText')}
-        </h2>
-      </motion.div>
+      <SectionHeader index="03" kicker={t('tech.sectionSubText')} title={t('tech.sectionHeadText')} />
 
-      {/* --- HARD SKILLS  --- */}
-      <div className="flex flex-row flex-wrap justify-center gap-10">
-        {technologies.map((technology, index) => (
-          <Tilt
-            key={technology.name}
-            className="w-28 h-28"
-            tiltMaxAngleX={25}
-            tiltMaxAngleY={25}
-            scale={1.1}
-            transitionSpeed={450}
-          >
+      <div className="mt-14 flex flex-col gap-10">
+        {techCategories.map((category, catIndex) => {
+          const items = technologies.filter((tech) => tech.category === category.id);
+
+          return (
             <motion.div
-              variants={fadeIn("up", "spring", index * 0.05, 0.75)}
-              className="w-full h-full rounded-full shadow-card bg-white dark:bg-tertiary border-4 border-primary-light dark:border-primary flex justify-center items-center transition-all duration-300 cursor-pointer hover:scale-110 dark:hover:shadow-[0_0_15px_rgba(82,121,111,0.5)]"
-              title={technology.name}
+              key={category.id}
+              variants={fadeIn("up", "spring", 0.1 * catIndex, 0.7)}
+              className="grid grid-cols-1 gap-4 md:grid-cols-[200px_1fr] md:gap-8"
             >
-              <img
-                src={technology.icon}
-                alt={technology.name}
-                className="w-16 h-16 object-contain"
-              />
+              <h3 className="flex items-baseline gap-3 font-mono text-[13px] uppercase tracking-[0.2em] text-secondary-light dark:text-secondary/80 md:pt-3">
+                <span className="text-jairo-accent dark:text-accent-bright">/</span>
+                {t(category.label)}
+              </h3>
+
+              <ul className="flex flex-wrap gap-3">
+                {items.map((technology) => (
+                  <TechChip key={technology.name} {...technology} />
+                ))}
+              </ul>
             </motion.div>
-          </Tilt>
-        ))}
+          );
+        })}
+
+        {/* soft skills as the closing group */}
+        <motion.div
+          variants={fadeIn("up", "spring", 0.4, 0.7)}
+          className="grid grid-cols-1 gap-4 md:grid-cols-[200px_1fr] md:gap-8"
+        >
+          <h3 className="flex items-baseline gap-3 font-mono text-[13px] uppercase tracking-[0.2em] text-secondary-light dark:text-secondary/80 md:pt-3">
+            <span className="text-jairo-accent dark:text-accent-bright">/</span>
+            {t('tech.softSkillsTitle')}
+          </h3>
+
+          <ul className="flex flex-wrap gap-3">
+            {Array.isArray(softSkills) && softSkills.map((skill, index) => (
+              <li
+                key={`soft-skill-${index}`}
+                className="rounded-xl border border-dashed border-secondary-light/25 dark:border-secondary/20 px-4 py-2.5 text-[14px] font-medium text-secondary-light dark:text-secondary transition-all duration-300 hover:border-jairo-accent/60 hover:text-jairo-accent dark:hover:border-accent-bright/50 dark:hover:text-accent-bright"
+              >
+                {skill}
+              </li>
+            ))}
+          </ul>
+        </motion.div>
       </div>
-
-      {/* --- SOFT SKILLS --- */}
-      <motion.div
-        variants={fadeIn("up", "tween", 0.5, 1)}
-        className="mt-20 flex flex-col items-center"
-      >
-        <h3 className="text-[24px] font-bold text-primary dark:text-white mb-6 transition-colors duration-300">
-          {t('tech.softSkillsTitle')}
-        </h3>
-
-        <div className="flex flex-wrap justify-center gap-4 max-w-4xl">
-          {Array.isArray(softSkills) && softSkills.map((skill, index) => (
-            <div
-              key={`soft-skill-${index}`}
-              className="px-6 py-3 rounded-full bg-primary-light dark:bg-tertiary text-text-light dark:text-white-100 font-medium text-[16px] shadow-sm border border-secondary/20 dark:border-primary hover:border-jairo-accent dark:hover:border-jairo-accent hover:text-jairo-accent dark:hover:text-jairo-accent transition-all cursor-default"
-            >
-              {skill}
-            </div>
-          ))}
-        </div>
-      </motion.div>
     </>
   )
 }

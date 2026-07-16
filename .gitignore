@@ -12,8 +12,16 @@ Thumbs.db
 *.swp
 *.swo
 
-# Ignore the .vscode 
+# Ignore the .vscode
 .vscode/*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# AI assistant workspace (local session data, not project code)
+.claude/
+
+# Local environment files
+.env
+.env.local
+*.local

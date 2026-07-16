@@ -1,0 +1,24 @@
+# Jairo Nacurena — Portfolio
+
+> Personal portfolio of Jairo Nacurena, an Applied Computer Science (APP/AI) student based in Belgium. He builds robust backend APIs (C#, Python, Java), AI/data projects, and modern web applications (React, Tailwind, Laravel/TALL stack).
+
+This is a single-page application. The sections below are reachable via in-page anchors.
+
+## Sections
+
+- [About](/#about): Introduction, profile, services (backend, full stack, Agile, AI & data) and CV download (/cv.pdf)
+- [Experience](/#work): Work experience, including VBA development and IT support at Woonboog (2024)
+- [Skills](/#tech): Tech stack grouped by frontend, backend, data & AI, and DevOps & security, plus soft skills
+- [Projects](/#projects): Selected projects with source code and live demos
+
+## Projects
+
+- [Feest Op Tafel](https://krea.feestoptafel.be/): Client web application built on the TALL stack with Stripe payments and Chart.js dashboards
+- [Evently](https://itf.evently-jan.be/): Event platform with role-based access control, CRUD, and multi-language support (TALL stack, Livewire 3)
+- [B&B Chez Natalie system design](https://github.com/J41r0Ps/bb-chez-natalie-system-analysis): Analysis and design track — use cases, ERD, Figma prototypes
+- [Tour de France data analysis](https://github.com/J41r0Ps/Project_DataScience_2025-2026): Web scraping, data cleaning, and visualization with Python, NumPy, and Matplotlib
+
+## Profiles
+
+- [GitHub](https://github.com/J41r0Ps)
+- [LinkedIn](https://www.linkedin.com/in/jairo-nacurena/)

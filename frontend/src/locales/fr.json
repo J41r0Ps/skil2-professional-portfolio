@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "role": "| Ingénieur APP/IA",
+        "role": "Ingénieur APP/IA",
         "about": "À propos",
         "work": "Expérience",
         "tech": "Compétences",
@@ -10,7 +10,10 @@
     "hero": {
         "greeting": "Salut, je suis",
         "subtitle1": "Je développe des API backend robustes, des modèles d'IA,",
-        "subtitle2": "et des applications web modernes."
+        "subtitle2": "et des applications web modernes.",
+        "viewProjects": "Voir les projets",
+        "location": "Basé en Belgique",
+        "scroll": "défiler"
     },
     "about": {
         "sectionSubText": "Introduction",
@@ -43,6 +46,12 @@
     "tech": {
         "sectionSubText": "Mon Stack Technique",
         "sectionHeadText": "Technologies & Compétences.",
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend",
+            "data": "Données & IA",
+            "devops": "DevOps & Sécurité"
+        },
         "softSkillsTitle": "Soft Skills",
         "softSkills": [
             "Agile / Scrum",
@@ -56,6 +65,8 @@
     "projects": {
         "sectionSubText": "Mon travail",
         "sectionHeadText": "Projets.",
+        "viewCode": "Voir le code",
+        "liveDemo": "Démo en ligne",
         "description": "Les projets suivants illustrent mes compétences et mon expérience à travers des exemples concrets. Chaque projet est brièvement décrit avec des liens vers les dépôts de code et des démos en ligne lorsque disponibles. Ils reflètent ma capacité à résoudre des problèmes complexes, à utiliser des technologies modernes et à gérer des projets efficacement de l’analyse jusqu’au déploiement.",
         "list": {
             "chez_natalie": {
@@ -77,6 +88,10 @@
         }
     },
     "footer": {
+        "ctaKicker": "Et maintenant",
+        "ctaTitle": "Construisons quelque chose ensemble.",
+        "ctaText": "Je suis ouvert aux stages, aux postes juniors et aux projets intéressants. Si vous pensez que nous pouvons travailler ensemble, ma boîte mail est ouverte.",
+        "ctaButton": "Dites bonjour",
         "rights": "Tous droits réservés.",
         "built": "Développé avec React et Tailwind"
     },
