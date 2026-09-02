@@ -1,5 +1,16 @@
 # 🚀 Jairo Nacurena — 3D Professional Portfolio & Web API
 
+> **Archived — superseded by [jaironacurena.com](https://jaironacurena.com)** ([repo](https://github.com/J41r0Ps/portfolio))
+>
+> This is v1 of my portfolio, built for Skills Integration Lab 2 (Thomas More, 2025–2026)
+> as a React + Vite single-page application. It is preserved as-is: the commit history is
+> dated evidence of authorship, and it serves as a deliberate before/after against v2.
+>
+> **Why it was rebuilt:** as a client-rendered SPA, crawlers received an empty document —
+> no projects, no skills, no content. v2 is statically generated with per-locale URLs,
+> so every page is real HTML in every language.
+
+
 Welcome to my personal portfolio repository! Developed as part of the **Skills Integration Lab 2 (SKIL2)** at Thomas More University, this project serves as my digital business card. It goes beyond a standard website by offering an interactive **3D Web Experience** that showcases my technical evolution, proudly presenting my real-world projects across Software Development, Data Science, Artificial Intelligence, and DevOps.
 
 🌍 **Live Website:** [View Portfolio on Azure](https://jairo-portfolio-frontend-eqcaa5gwdyavc4fq.westeurope-01.azurewebsites.net/)
